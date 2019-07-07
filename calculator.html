@@ -12,8 +12,13 @@ num.value = Math.pow(num.value, 4);
 function sine() {
 var num = document.getElementById("n1");
 num.value = Math.sin(num.value);
+
+function double() {
+var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 2);
 }
 </script>
+
 </head>
 <body>
 <h1>Calculadora de Jessica Herrero Ayuso</h1>
@@ -23,6 +28,7 @@ Number:
 <button onclick="cube()"> x^3 </button>
 <button onclick="multiple()"> x^4 </button>
 <button onclick="sine()"> sin(x)</button>
+<button onclick="double()"> x^2 </button>
 </p>
 </body>
 </html>
